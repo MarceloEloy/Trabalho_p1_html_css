@@ -1,0 +1,51 @@
+body{
+    background-image: url(imagens/fundo.png);
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    height: 99%;
+}
+.corpo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imagem{
+    height: 388px;
+    display: flex;
+    width: 100%;
+    background-size: 100%;
+    justify-content: center;
+}
+.linksp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.links{
+    width: 64%;
+    #link{
+        text-decoration: none;
+        color: rgb(43, 82, 82);;
+    }
+}
+.textop{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.texto{
+    width: 68%;
+}
+.direitos{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto_cima{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
